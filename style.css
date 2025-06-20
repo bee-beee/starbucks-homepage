@@ -1,0 +1,275 @@
+body {
+  margin: 0px;
+  font-family: "SoDo Sans-SemiBold", Helvetica Neue, Helvetica, sans-serif;
+  font-weight: 500;
+  color: rgba(0, 0, 0, 0.87);
+}
+
+
+header {
+  height: 101px;
+  z-index: 10;
+  position: relative;
+  background-color: white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-container {
+  max-width: 1440px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  margin: 0 auto;
+  padding: 0 40px;
+}
+
+
+.leftnav {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.logo img {
+  height: 51px;
+  width: auto;
+  cursor: pointer;
+}
+
+.leftnav nav ul {
+  margin: 0px;
+  padding: 0px;
+  list-style-type: none;
+  display: flex;
+  gap: 30px;
+}
+
+.leftnav nav ul li {
+  font-size: 16px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.leftnav nav ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+.leftnav nav ul li a:hover {
+  color: #008048;
+}
+
+
+.rightnav {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.findstore {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  cursor: pointer;
+}
+
+.findstore img {
+  width: 20px;
+  height: 20px;
+}
+
+.findstore span {
+  font-size: 14px;
+  font-weight: bold;
+}
+.findstore:hover{
+    color: #008048;
+}
+
+.findstore:hover .location-icon {
+  fill: #008048;
+}
+.sign-in, .join-now {
+  padding: 7px 16px;
+  border: 1px solid;
+  border-radius: 50px;
+  line-height: 1.2;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.sign-in {
+  background-color: transparent;
+}
+
+.sign-in:hover, .join-now:hover {
+  background-color: rgba(0, 0, 0, 0.06);
+}
+
+.join-now {
+  background-color: #000;
+  color: white;
+}
+
+.join-now:hover {
+  background-color: rgba(0, 0, 0, 0.7);
+  border-color: rgba(0, 0, 0, 0.7);
+}
+.container{
+    max-width: 1440px;
+    margin: auto;
+}
+.product img{
+    max-width:100%;
+    height:100%;
+    object-fit: contain;
+}
+.product{
+    display:flex;
+}
+.product-left,.product-right{
+    max-width:50%;
+    display:flex;
+    width:50%;
+    align-items: center;
+    justify-content: center;
+    height:100%;
+    align-self: stretch;
+    flex-direction:column; 
+}
+.product-title{
+    width:100%;
+    text-align: center;
+    color:white;
+}
+.product-container{
+    margin:40px 0px 40px 0px;
+    display: flex;
+}
+.product-button{
+    border:1px solid white;
+    padding:5px 20px 5px 20px;
+    max-width:max-content;
+    border-radius:40px;
+    text-align: center;
+    margin:auto;
+    margin-bottom:30px;
+    cursor:pointer;
+}
+.product-button-white{
+    color:white;
+}
+.product-description{
+    color:white;
+    text-align:center;
+    margin:30px 60px 30px 60px;
+    font-size:24px;
+}
+.pp{
+    text-align: center;
+    margin:30px 60px 30px 60px;
+    font-size:20px;
+    line-height: 1.5;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight:500;
+}
+footer {
+    padding: 40px 0 0 0;
+    background-color: #ffffff;
+    border-top: 1px solid #e0e0e0; 
+}
+
+    
+
+.footer-container{
+    display:flex;
+    justify-content: space-between;
+    padding: 0 60px;
+    width:100%;
+    flex-wrap: wrap;
+    text-decoration: none;
+    box-sizing: border-box;
+    
+}
+.footer-container ul{
+    list-style-type:none;
+    padding:0;
+    margin:0;
+}
+.footer-container ul li{
+   
+     color: black;
+     padding-top:12px;
+     padding-bottom:12px;
+     margin-bottom:10px;
+     cursor:pointer;
+}
+.footer-container a{
+    color:rgba(0, 0, 0, 0.612);
+    text-decoration:none;
+
+}
+.footer-container ul li a:hover{
+    color:rgba(0, 0, 0, 0.87);
+}
+.links-container{
+    width:190px;
+    margin-right:40px;
+}
+.footer h3{
+    margin-bottom:20px;
+    font-size:15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.footer-below{
+    margin-left:40px;
+    margin-right:40px;
+     border-top: 2px solid rgba(0, 0, 0, 0.1);
+
+}
+.social{
+    display:flex;
+    align-items:center;
+}
+.social img{
+    height:35px;
+    width:35px;
+    margin: 5px 10px 10px 0px;
+    
+}
+.social img:hover{
+    background-color: #00000071;
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+    transform: scale(1.2) rotate(360deg);
+}
+.social a{
+    text-decoration:none;
+    margin-right: 20px;
+    font-size:30px;
+    margin-top:40px;
+}
+.policy{
+    margin-top:10px;
+}
+.po{
+    margin-right:20px;
+    text-decoration:none;
+    color:rgba(0, 0, 0, 0.87);
+    line-height: 2.5;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 1px;
+}
+.policy a:hover{
+    text-decoration: underline;
+}
+.final{
+    font-size: small;
+    color: #acacac;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 1.5px;
+}
+
