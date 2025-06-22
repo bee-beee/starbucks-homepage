@@ -4,7 +4,7 @@ A fully responsive **clone of the official [Starbucks](https://www.starbucks.com
 
 This project is for educational purposes and UI/UX practice — no backend, JavaScript, or frameworks were used.
 
-![Preview Screenshot]() <!-- Replace this link after step 2 -->
+![Preview Screenshot](Screenshot_22-6-2025_173156_bee-beee.github.io.jpeg) <!-- Replace this link after step 2 -->
 
 ---
 
